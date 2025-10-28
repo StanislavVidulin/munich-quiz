@@ -73,6 +73,8 @@ src/
 public/
 ├── images/           # Flags and quiz images
 
+```
+
 ---
 
 ## 🌍 Deployment
