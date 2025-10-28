@@ -1,0 +1,168 @@
+.container {
+  width: 100%;
+  background: #fdfdfd;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.homeIcon {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  transform: translateY(-1.5px);
+  transition: transform 0.3s ease, stroke 0.3s ease;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  transition: all 0.3s ease;
+  will-change: transform;
+}
+
+.link,
+.languageBtn,
+.languageDropdown li {
+  font-weight: 400;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.languageWrapper {
+  position: relative;
+}
+
+.languageDropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #2c2c2c;
+  border-radius: 15px;
+  margin-top: 8px;
+  list-style: none;
+  padding: 0;
+  min-width: 110px;
+  overflow: hidden;
+}
+
+.languageWrapper.open .languageDropdown {
+  display: block;
+}
+
+.languageDropdown li {
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #252525;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.languageDropdown li:hover {
+  color: #fff;
+  background: #000;
+}
+
+.languageBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.arrow {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+.languageWrapper.open .arrow {
+  transform: rotate(-135deg);
+}
+
+.flag {
+  width: 22px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 8px 0;
+  }
+  .wrapper {
+    padding: 0 15px;
+  }
+  .nav {
+    gap: 10px;
+  }
+  .link,
+  .languageBtn {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+  .link:hover {
+    transform: none;
+  }
+  .homeIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .flag {
+    width: 18px;
+    height: 16px;
+  }
+  .languageDropdown {
+    min-width: 100px;
+  }
+  .languageDropdown li {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+}

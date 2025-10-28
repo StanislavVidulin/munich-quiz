@@ -1,0 +1,117 @@
+{
+  "header": { "home": "Startseite", "about": "Über uns" },
+  "homeContent": {
+    "title": "Wie gut kennst du München ?",
+    "subTitle": "Mach das Quiz und finde es heraus!",
+    "btn": "Quiz starten"
+  },
+  "aboutContent": {
+    "title": "Willkommen beim Munich Quiz!",
+    "text": "Munich Quiz ist eine moderne Web-Anwendung für alle, die neugierig auf München sind. Entdecke die Stadt durch 10 interaktive und visuell ansprechende Multiple-Choice-Fragen, die jeweils lebendige Bilder von Sehenswürdigkeiten, historischen Stätten und kulturellen Highlights zeigen. Mit einer benutzerfreundlichen Oberfläche, sofortigem Feedback und sanften Animationen macht Munich Quiz das Lernen über die Stadt spannend und unterhaltsam. Perfekt für eine schnelle Herausforderung oder eine lockere Erkundung: Das Quiz ermöglicht es dir, dein Wissen zu testen und Münchens reiche Geschichte sowie ikonische Attraktionen auf unterhaltsame und informative Weise zu entdecken."
+  },
+  "quizCard": {
+    "yourResult": "Dein Ergebnis",
+    "yourAnswers": "Deine Antworten",
+    "restart": "Quiz neu starten",
+    "questions": [
+      {
+        "image": "/images/marienplatz.jpg",
+        "question": "Wo versammeln sich Touristen in München, um das Glockenspiel am Neuen Rathaus zu sehen?",
+        "options": [
+          "Marienplatz",
+          "St. Peter’s Square",
+          "Viktualienmarkt",
+          "Frauenkirche"
+        ],
+        "answer": "Marienplatz"
+      },
+      {
+        "image": "/images/frauenkirche.jpg",
+        "question": "Wie heißt die Hauptkathedrale Münchens, die von fast überall in der Stadt sichtbar ist?",
+        "options": [
+          "Michaelskirche",
+          "Petersdom",
+          "Frauenkirche",
+          "Paulskirche"
+        ],
+        "answer": "Frauenkirche"
+      },
+      {
+        "image": "/images/nymphenburg.jpg",
+        "question": "Welcher bayerische König wurde im Schloss Nymphenburg geboren?",
+        "options": [
+          "Maximilian I. Joseph",
+          "Ludwig I",
+          "Ludwig II",
+          "Ludwig III"
+        ],
+        "answer": "Ludwig II"
+      },
+      {
+        "image": "/images/englischer-garten.jpg",
+        "question": "Warum heißt der Englische Garten in München so?",
+        "options": [
+          "Er wurde von Engländern gebaut",
+          "Er wurde im Stil eines englischen Landschaftsparks angelegt",
+          "Dort wachsen englische Pflanzen",
+          "Jedes Jahr findet dort ein englisches Festival statt"
+        ],
+        "answer": "Er wurde im Stil eines englischen Landschaftsparks angelegt"
+      },
+      {
+        "image": "/images/olympiapark.jpg",
+        "question": "Welche Sportveranstaltung wurde in München vom 26. August bis 10. September 1972 ausgetragen?",
+        "options": [
+          "Champions-League-Finale",
+          "Fußball-Weltmeisterschaftsfinale",
+          "Fußball-Europameisterschaftsfinale",
+          "Olympische Sommerspiele"
+        ],
+        "answer": "Olympische Sommerspiele"
+      },
+      {
+        "image": "/images/allianz_arena.jpg",
+        "question": "Welcher Münchner Fußballverein spielt in der Allianz Arena?",
+        "options": [
+          "FC Bayern München",
+          "TSV 1860 München",
+          "SpVgg Unterhaching",
+          "FC Wacker München"
+        ],
+        "answer": "FC Bayern München"
+      },
+      {
+        "image": "/images/bmw-museum.jpg",
+        "question": "Welcher Automobilhersteller hat seinen Hauptsitz in diesem Wolkenkratzer in Form von vier Zylindern?",
+        "options": ["Mercedes-Benz", "BMW", "Audi", "Volkswagen"],
+        "answer": "BMW"
+      },
+      {
+        "image": "/images/oktoberfest.jpg",
+        "question": "Welches berühmte Münchner Fest wurde 1810 erstmals zur Feier der Hochzeit von Kronprinz Ludwig und Prinzessin Therese veranstaltet?",
+        "options": ["Coachella", "Oktoberfest", "Burning Man", "Glastonbury"],
+        "answer": "Oktoberfest"
+      },
+      {
+        "image": "/images/hofbrauhaus.jpg",
+        "question": "Wann wurde das Hofbräuhaus in München von Herzog Wilhelm V. gegründet?",
+        "options": ["1625", "1552", "1703", "1589"],
+        "answer": "1589"
+      },
+      {
+        "image": "/images/isar.jpg",
+        "question": "An welchem ​​Fluss liegt München?",
+        "options": ["Donau", "Rhein", "Elbe", "Isar"],
+        "answer": "Isar"
+      }
+    ]
+  },
+  "resultCard": {
+    "title": "Dein Ergebnis",
+    "subtitle": "Du hast {{score}} von {{total}} Fragen richtig beantwortet!",
+    "btn": "Quiz neu starten",
+    "yourAnswers": "Deine Antworten",
+    "yourAnswer": "Deine Antwort: ",
+    "correctAnswer": "Richtige Antwort: "
+  }
+}
