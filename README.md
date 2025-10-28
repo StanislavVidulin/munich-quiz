@@ -1,6 +1,6 @@
-# 🧠 QuizTime
+# 🧠 MunichQuiz
 
-**QuizTime** is an interactive quiz web application built with **React**, **TypeScript**, and **Vite**.  
+**MunichQuiz** is an interactive quiz web application built with **React**, **TypeScript**, and **Vite**.  
 Users can take quizzes with animated transitions, track progress, switch languages (EN/DE), and view detailed results.
 
 ---
