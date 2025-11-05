@@ -1,8 +1,8 @@
 import { motion, easeOut } from "framer-motion";
-import s from "./AboutContent.module.css";
+import s from "./About.module.css";
 import { useTranslation } from "react-i18next";
 
-function AboutContent() {
+function About() {
   const { t } = useTranslation();
 
   const animationProps = {
@@ -32,4 +32,4 @@ function AboutContent() {
   );
 }
 
-export default AboutContent;
+export default About;

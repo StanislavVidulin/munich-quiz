@@ -40,8 +40,8 @@ Users can take quizzes with animated transitions, track progress, switch languag
 ### 🧱 Components
 - `Header` — navigation bar with language switcher  
 - `Button` — reusable link button component  
-- `HomeContent` — welcome section with intro text and quiz start button  
-- `AboutContent` — information about the app with animations  
+- `Home` — welcome section with intro text and quiz start button  
+- `About` — information about the app with animations  
 - `QuizCard` — main quiz logic and question display  
 - `ResultCard` — displays final score and correct/incorrect answers  
 - `ProgressBar` — animated progress indicator  

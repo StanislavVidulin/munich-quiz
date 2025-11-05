@@ -1,11 +1,10 @@
-import HomeContent from "../../components/HomeContent/HomeContent";
+import Home from "../../components/Home/Home";
 import { AnimatedLayout } from "../../components/AnimatedLayout/AnimatedLayout";
-
 
 function HomePage() {
   return (
     <AnimatedLayout>
-      <HomeContent />
+      <Home />
     </AnimatedLayout>
   );
 }

@@ -1,10 +1,10 @@
 import Button from "../Button/Button";
-import s from "./HomeContent.module.css";
+import s from "./Home.module.css";
 import { textAnimation } from "../styles/animation";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-function HomeContent() {
+function Home() {
 
   const { t } = useTranslation();
 
@@ -33,4 +33,4 @@ function HomeContent() {
   );
 }
 
-export default HomeContent;
+export default Home;

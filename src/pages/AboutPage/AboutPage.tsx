@@ -1,10 +1,10 @@
-import AboutContent from "../../components/AboutContent/AboutContent";
+import About from "../../components/About/About";
 import { AnimatedLayout } from "../../components/AnimatedLayout/AnimatedLayout";
 
 function AboutPage() {
   return (
     <AnimatedLayout>
-      <AboutContent />
+      <About />
     </AnimatedLayout>
   );
 }
